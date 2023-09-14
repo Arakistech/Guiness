@@ -13,7 +13,7 @@ const config = {
     ' You can filter the list by business type.',
   sideBarInfo: ['Location_Name', 'Address', 'Phone'],
   popupInfo: ['Location_Name'],
-  icons:['School', 'Mall', 'Park', 'Supermarket', 'Gym', 'Nursery','Sports'],
+  icons:['Site Access', 'Logistics Areas', 'Site Facilities', 'Fire Assembly points'],
   // iconMapping: {
   //   'Library':'school',
   //   'Human Services/Non-profit (non-residential)':'Mall', 
