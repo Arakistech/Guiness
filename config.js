@@ -6,7 +6,7 @@ const config = {
   accessToken:
     'pk.eyJ1IjoiaWFyYWtpc3RhaW4iLCJhIjoiY2xpYThhaTgxMDE0OTNsbzlydGs1MjNkYiJ9.8iGzdM2OVnC3NKpVatVGqA',
   CSV: './Sample_Data.csv',
-  center: [53.34532340389906, -6.287916098168898],
+  center: [-6.287916098168898, 53.34532340389906],
   zoom: 12,
   title: 'Guiness Map',
   description:
