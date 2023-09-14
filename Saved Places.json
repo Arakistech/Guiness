@@ -1,0 +1,955 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          55.2095719,
+          25.0649866
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=15694356326073994941",
+        "Location": {
+          "Address": "Bijada Blvd N - Jumeirah Village - Dubai - United Arab Emirates",
+          "Business Name": "Uniestate Prime Tower",
+          "Geo Coordinates": {
+            "Latitude": "25.0649866",
+            "Longitude": "55.2095719"
+          }
+        },
+        "Published": "2023-05-27T07:49:51Z",
+        "Title": "Uniestate Prime Tower",
+        "Updated": "2023-05-27T07:49:51Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2156490,
+          25.0656143
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=14024408246954702501",
+        "Location": {
+          "Address": "3688+67R - قرية جميرا الدائرية - Jumeirah Village - Dubai - United Arab Emirates",
+          "Business Name": "Huna Aquatics",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0656143",
+            "Longitude": "55.2156490"
+          }
+        },
+        "Published": "2023-05-27T07:48:40Z",
+        "Title": "Huna Aquatics",
+        "Updated": "2023-05-27T07:48:40Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2039566,
+          25.0655212
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=7096809889295635405",
+        "Location": {
+          "Address": "Jumeirah Village Circle - Dubai - United Arab Emirates",
+          "Business Name": "Gators Swimming Academy",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0655212",
+            "Longitude": "55.2039566"
+          }
+        },
+        "Published": "2023-05-27T07:48:34Z",
+        "Title": "Gators Swimming Academy",
+        "Updated": "2023-05-27T07:48:34Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2056963,
+          25.0662725
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=7891101484234377612",
+        "Location": {
+          "Address": "3684+G74 - JVC - Jumeirah Village - Dubai - United Arab Emirates",
+          "Business Name": "eTalentMania Tennis Academy - JVC",
+          "Geo Coordinates": {
+            "Latitude": "25.0662725",
+            "Longitude": "55.2056963"
+          }
+        },
+        "Published": "2023-05-27T07:48:29Z",
+        "Title": "eTalentMania Tennis Academy - JVC",
+        "Updated": "2023-05-27T07:48:29Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2699778,
+          25.0580052
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=17144449411681864462",
+        "Location": {
+          "Address": "Arabian Ranches 1 - Dubai - United Arab Emirates",
+          "Business Name": "Elite Sports Academy | Head Office",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0580052",
+            "Longitude": "55.2699778"
+          }
+        },
+        "Published": "2023-05-27T07:48:22Z",
+        "Title": "Elite Sports Academy | Head Office",
+        "Updated": "2023-05-27T07:48:22Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2051811,
+          25.0662161
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=9182966396461051325",
+        "Location": {
+          "Address": "Jss international school - Jumeirah Village - Dubai - United Arab Emirates",
+          "Business Name": "Green sport club JVC",
+          "Geo Coordinates": {
+            "Latitude": "25.0662161",
+            "Longitude": "55.2051811"
+          }
+        },
+        "Type":"Gym",
+        "Published": "2023-05-27T07:48:16Z",
+        "Title": "Green sport club JVC",
+        "Updated": "2023-05-27T07:48:16Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2052043,
+          25.0660000
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=7604077939851036214",
+        "Location": {
+          "Address": "JVC - inside JSS International School - Dubai - United Arab Emirates",
+          "Business Name": "olympia sports services",
+          "Geo Coordinates": {
+            "Latitude": "25.0660000",
+            "Longitude": "55.2052043"
+          }
+        },
+        "Type":"Gym",
+        "Published": "2023-05-27T07:48:09Z",
+        "Title": "olympia sports services",
+        "Updated": "2023-05-27T07:48:09Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.1979375,
+          25.0532975
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=9919710392422886435",
+        "Location": {
+          "Address": "Tower 108 Lazuward S W - Jumeirah Village - Dubai - United Arab Emirates",
+          "Business Name": "Prime Fitness 2 JVC",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0532975",
+            "Longitude": "55.1979375"
+          }
+        },
+        "Type":"Gym",
+        "Published": "2023-05-27T07:48:04Z",
+        "Title": "Prime Fitness 2 JVC",
+        "Updated": "2023-05-27T07:48:04Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2136560,
+          25.0601335
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=15591587310560666815",
+        "Location": {
+          "Address": "3667+3F2 - JVC - Dubai - United Arab Emirates",
+          "Business Name": "Al Amir Gym",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0601335",
+            "Longitude": "55.2136560"
+          }
+        },
+        "Type":"Gym",
+        "Published": "2023-05-27T07:47:57Z",
+        "Title": "Al Amir Gym",
+        "Updated": "2023-05-27T07:47:57Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2157792,
+          25.0658924
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=1673358113417811650",
+        "Location": {
+          "Address": "Circle Mall - Jumeirah Village Circle - Level 2 - Dubai - United Arab Emirates",
+          "Business Name": "Wellfit JVC",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0658924",
+            "Longitude": "55.2157792"
+          }
+        },
+        "Type":"School",
+        "Published": "2023-05-27T07:47:52Z",
+        "Title": "Wellfit JVC",
+        "Updated": "2023-05-27T07:47:52Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2063980,
+          25.0685596
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=11339681343287750169",
+        "Location": {
+          "Address": "JVC - Dubai - United Arab Emirates",
+          "Business Name": "Prime Fitness JVC",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0685596",
+            "Longitude": "55.2063980"
+          }
+        },
+        "Type":"Supermarket",
+        "Published": "2023-05-27T07:47:47Z",
+        "Title": "Prime Fitness JVC",
+        "Updated": "2023-05-27T07:47:47Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2049266,
+          25.0553385
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=9092225081348920347",
+        "Location": {
+          "Address": "الدائرية - قرية جميرا الدائرية - Street 1 Street 1 - Jumeirah Village - Dubai - United Arab Emirates",
+          "Business Name": "The First Collection at Jumeirah Village Circle",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0553385",
+            "Longitude": "55.2049266"
+          }
+        },
+        "Type":"Mall",
+        "Published": "2023-05-27T07:47:41Z",
+        "Title": "The First Collection at Jumeirah Village Circle",
+        "Updated": "2023-05-27T07:47:41Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2071569,
+          25.0539722
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=12541343568720943872",
+        "Location": {
+          "Address": "Lazuward SW - Jumeirah Village - Dubai - United Arab Emirates",
+          "Business Name": "FIVE Jumeirah Village Hotel",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0539722",
+            "Longitude": "55.2071569"
+          }
+        },
+        "Type":"Sports",
+        "Published": "2023-05-27T07:47:36Z",
+        "Title": "FIVE Jumeirah Village Hotel",
+        "Updated": "2023-05-27T07:47:36Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2107178,
+          25.0693160
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=16630762720134140531",
+        "Location": {
+          "Address": "3696+P7G - JVC, JVC - Dubai - United Arab Emirates",
+          "Business Name": "JVC District 16",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0693160",
+            "Longitude": "55.2107178"
+          }
+        },
+        "Type":"Nursery",
+        "Published": "2023-05-27T07:47:29Z",
+        "Title": "JVC District 16",
+        "Updated": "2023-05-27T07:47:29Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2097817,
+          25.0508595
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=5813926885057229477",
+        "Location": {
+          "Address": "3625+8WV - Jumeirah Village Circle - Dubai - United Arab Emirates",
+          "Business Name": "District 13-2 Community Park",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0508595",
+            "Longitude": "55.2097817"
+          }
+        },
+        "Type":"Supermarket",
+        "Published": "2023-05-27T07:47:23Z",
+        "Title": "District 13-2 Community Park",
+        "Updated": "2023-05-27T07:47:23Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.1986807,
+          25.0536797
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=8921266155677617797",
+        "Location": {
+          "Address": "Jumeirah Village Circle - Dubai - United Arab Emirates",
+          "Business Name": "Community Park",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0536797",
+            "Longitude": "55.1986807"
+          }
+        },
+        "Type":"Sports",
+        "Published": "2023-05-27T07:47:17Z",
+        "Title": "Community Park",
+        "Updated": "2023-05-27T07:47:17Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2013616,
+          25.0575319
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=9574374849583193998",
+        "Location": {
+          "Address": "3652+2G9 - Jumeirah Village Circle - Dubai - United Arab Emirates",
+          "Business Name": "Community Park",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0575319",
+            "Longitude": "55.2013616"
+          }
+        },
+        "Type":"Mall",
+        "Published": "2023-05-27T07:47:11Z",
+        "Title": "Community Park",
+        "Updated": "2023-05-27T07:47:11Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2058321,
+          25.0647877
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=9674765147400876766",
+        "Location": {
+          "Address": "Jumeirah Village Circle - Dubai - United Arab Emirates",
+          "Business Name": "Roolh Park - JVC",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0647877",
+            "Longitude": "55.2058321"
+          }
+        },
+        "Type":"Gym",
+        "Published": "2023-05-27T07:47:06Z",
+        "Title": "Roolh Park - JVC",
+        "Updated": "2023-05-27T07:47:06Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2059900,
+          25.0619610
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=4108167204716348273",
+        "Location": {
+          "Address": "3664+Q9Q - Jumeirah Village Circle - Dubai - United Arab Emirates",
+          "Business Name": "Remram - Community Park",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0619610",
+            "Longitude": "55.2059900"
+          }
+        },
+        "Type":"Park",
+        "Published": "2023-05-27T07:47:00Z",
+        "Title": "Remram - Community Park",
+        "Updated": "2023-05-27T07:47:00Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2134682,
+          25.0634515
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=11358783476681170004",
+        "Location": {
+          "Address": "Unnamed Road - Jumeirah Village - Dubai - United Arab Emirates",
+          "Business Name": "Gadaf Park - JVC",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0634515",
+            "Longitude": "55.2134682"
+          }
+        },
+        "Type":"Sports",
+        "Published": "2023-05-27T07:46:53Z",
+        "Title": "Gadaf Park - JVC",
+        "Updated": "2023-05-27T07:46:53Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2081167,
+          25.0520188
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=7386349412915784047",
+        "Location": {
+          "Address": "قرية جميرا الدائرية - Dubai - United Arab Emirates",
+          "Business Name": "AL MADINA MARKET JVC",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0520188",
+            "Longitude": "55.2081167"
+          }
+        },
+        "Type":"Nursery",
+        "Published": "2023-05-27T07:46:47Z",
+        "Title": "AL MADINA MARKET JVC",
+        "Updated": "2023-05-27T07:46:47Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2203046,
+          25.0582829
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=2812688538097327974",
+        "Location": {
+          "Address": "Fourth Dubai - Jumeirah Village Circle - Al Barsha South - Dubai - United Arab Emirates",
+          "Business Name": "Grandiose Supermarket - Hessa Views - JVC",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0582829",
+            "Longitude": "55.2203046"
+          }
+        },
+        "Type":"Park",
+        "Published": "2023-05-27T07:46:42Z",
+        "Title": "Grandiose Supermarket - Hessa Views - JVC",
+        "Updated": "2023-05-27T07:46:42Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2104413,
+          25.0664201
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=2536138865385791399",
+        "Location": {
+          "Address": "Jumeirah Village - Dubai - United Arab Emirates",
+          "Business Name": "All Day",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0664201",
+            "Longitude": "55.2104413"
+          }
+        },
+        "Type":"Sports",
+        "Published": "2023-05-27T07:46:35Z",
+        "Title": "All Day",
+        "Updated": "2023-05-27T07:46:35Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2153512,
+          25.0667944
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=18102888572224591824",
+        "Location": {
+          "Address": "JVC - Dubai - United Arab Emirates",
+          "Business Name": "Nesto Hypermarket, JVC",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0667944",
+            "Longitude": "55.2153512"
+          }
+        },
+        "Type":"Supermarket",
+        "Published": "2023-05-27T07:46:27Z",
+        "Title": "Nesto Hypermarket, JVC",
+        "Updated": "2023-05-27T07:46:27Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2399376,
+          25.1016938
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=7223351269941283570",
+        "Location": {
+          "Address": "Al Khail Rd - Dubai - United Arab Emirates",
+          "Business Name": "Dubai Hills Mall",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.1016938",
+            "Longitude": "55.2399376"
+          }
+        },
+        "Type":"Nursery",
+        "Published": "2023-05-27T07:46:19Z",
+        "Title": "Dubai Hills Mall",
+        "Updated": "2023-05-27T07:46:19Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2160625,
+          25.0660625
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=564580423102568788",
+        "Location": {
+          "Address": "3688+CCM - قرية جميرا الدائرية - Dubai - United Arab Emirates",
+          "Business Name": "Circle Mall JVC",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0660625",
+            "Longitude": "55.2160625"
+          }
+        },
+        "Type":"Park",
+        "Published": "2023-05-27T07:46:12Z",
+        "Title": "Circle Mall JVC",
+        "Updated": "2023-05-27T07:46:12Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2055376,
+          25.0464581
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=11598880780250185233",
+        "Location": {
+          "Address": "O2 Residential Tower - Jumeirah Village Circle - Dubai - United Arab Emirates",
+          "Business Name": "Kiddie Jungle Play area Nursery JVC activities Kids Care",
+          "Geo Coordinates": {
+            "Latitude": "25.0464581",
+            "Longitude": "55.2055376"
+          }
+        },
+        "Type":"Nursery",
+        "Published": "2023-05-27T07:46:07Z",
+        "Title": "Kiddie Jungle Play area Nursery JVC activities Kids Care",
+        "Updated": "2023-05-27T07:46:07Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2121639,
+          25.0551064
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=17621335092922307497",
+        "Location": {
+          "Address": "Jumeirah Village South - 12 Street 26 - Dubai - United Arab Emirates",
+          "Business Name": "Ladybird Early Learning Centre",
+          "Geo Coordinates": {
+            "Latitude": "25.0551064",
+            "Longitude": "55.2121639"
+          }
+        },
+        "Type":"Sports",
+        "Published": "2023-05-27T07:46:01Z",
+        "Title": "Ladybird Early Learning Centre",
+        "Updated": "2023-05-27T07:46:01Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2029435,
+          25.0543426
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=9221022051391065549",
+        "Location": {
+          "Address": "Park View Tower - Jumeirah Village Triangle - Dubai - United Arab Emirates",
+          "Business Name": "Chubby Cheeks Nursery JVC",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0543426",
+            "Longitude": "55.2029435"
+          }
+        },
+        "Type":"Nursery",
+        "Published": "2023-05-27T07:45:55Z",
+        "Title": "Chubby Cheeks Nursery JVC",
+        "Updated": "2023-05-27T07:45:55Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2163672,
+          25.0578261
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=14453535575475037342",
+        "Location": {
+          "Address": "Tower A2, AMSA 2 Building, قرية جميرا الدائرية - Dubai - United Arab Emirates",
+          "Business Name": "Green Roots Nursery Dubai",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0578261",
+            "Longitude": "55.2163672"
+          }
+        },
+        "Type":"Gym",
+        "Published": "2023-05-27T07:45:46Z",
+        "Title": "Green Roots Nursery Dubai",
+        "Updated": "2023-05-27T07:45:46Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2097642,
+          25.0660920
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=18129542489005098912",
+        "Location": {
+          "Address": "AMSA Building - Kaheel Blvd - Jumeirah Village - Dubai - United Arab Emirates",
+          "Business Name": "Little Wonders Nursery Dubai JVC",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0660920",
+            "Longitude": "55.2097642"
+          }
+        },
+        "Type":"Mall",
+        "Published": "2023-05-27T07:45:38Z",
+        "Title": "Little Wonders Nursery Dubai JVC",
+        "Updated": "2023-05-27T07:45:38Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2027920,
+          25.0594190
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=4676242781310222926",
+        "Location": {
+          "Address": "R-02 Autumn 2 Seasons Community, Jumeirah Village Circle - Dubai - United Arab Emirates",
+          "Business Name": "Kids World Nursery JVC",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0594190",
+            "Longitude": "55.2027920"
+          }
+        },
+        "Type":"School",
+        "Published": "2023-05-27T07:45:11Z",
+        "Title": "Kids World Nursery JVC",
+        "Updated": "2023-05-27T07:45:11Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.1826491,
+          25.0457503
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=616377268577365549",
+        "Location": {
+          "Address": "District 9 - Orchid St - Jumeirah Village - Jumeirah Village Triangle - Dubai - United Arab Emirates",
+          "Business Name": "Arcadia School",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0457503",
+            "Longitude": "55.1826491"
+          }
+        },
+        "Type":"Mall",
+        "Published": "2023-05-27T07:45:06Z",
+        "Title": "Arcadia School",
+        "Updated": "2023-05-27T07:45:06Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.1932920,
+          25.0469679
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=9295872411032698881",
+        "Location": {
+          "Address": "District 5 Block C - Jumeirah Village - Jumeirah Village Triangle - Dubai - United Arab Emirates",
+          "Business Name": "Sunmarke School",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0469679",
+            "Longitude": "55.1932920"
+          }
+        },
+        "Type":"Supermarket",
+        "Published": "2023-05-27T07:44:49Z",
+        "Title": "Sunmarke School",
+        "Updated": "2023-05-27T07:44:49Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2279090,
+          25.0799005
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=11974518788582479674",
+        "Location": {
+          "Address": "شارع أم سقيم - Al Barsha - Al Barsha South - Dubai - United Arab Emirates",
+          "Business Name": "GEMS Founders School - Al Barsha",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0799005",
+            "Longitude": "55.2279090"
+          }
+        },
+        "Type":"Nursery",
+        "Published": "2023-05-27T07:44:42Z",
+        "Title": "GEMS Founders School - Al Barsha",
+        "Updated": "2023-05-27T07:44:42Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2268706,
+          25.0619168
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=6274542490794164244",
+        "Location": {
+          "Address": "Al Barsha - Al Barsha 3 - Dubai - United Arab Emirates",
+          "Business Name": "Nord Anglia International School Dubai",
+          "Country Code": "AE",
+          "Geo Coordinates": {
+            "Latitude": "25.0619168",
+            "Longitude": "55.2268706"
+          }
+        },
+        "Type":"Mall",
+        "Published": "2023-05-27T07:44:35Z",
+        "Title": "Nord Anglia International School Dubai",
+        "Updated": "2023-05-27T07:44:35Z"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          55.2048878,
+          25.0661847
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "Google Maps URL": "http://maps.google.com/?cid=9865617189474706980",
+        "Location": {
+          "Address": "Plot No. JVC10SCP001, JVC - Dubai - United Arab Emirates",
+          "Business Name": "JSS International School",
+          "Geo Coordinates": {
+            "Latitude": "25.0661847",
+            "Longitude": "55.2048878"
+          }
+        },
+        "Type":"Sports",
+        "Published": "2023-05-27T07:44:22Z",
+        "Title": "JSS International School",
+        "Updated": "2023-05-27T07:44:22Z"
+      },
+      "type": "Feature"
+    }
+  ]
+}
