@@ -6,9 +6,9 @@ const config = {
   accessToken:
     'pk.eyJ1IjoiaWFyYWtpc3RhaW4iLCJhIjoiY2xpYThhaTgxMDE0OTNsbzlydGs1MjNkYiJ9.8iGzdM2OVnC3NKpVatVGqA',
   CSV: './Sample_Data.csv',
-  center: [55.2052043, 25.0660000],
+  center: [53.34532340389906, -6.287916098168898],
   zoom: 12,
-  title: 'Dubai Map',
+  title: 'Guiness Map',
   description:
     ' You can filter the list by business type.',
   sideBarInfo: ['Location_Name', 'Address', 'Phone'],
