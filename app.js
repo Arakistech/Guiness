@@ -23,7 +23,7 @@ const map = new mapboxgl.Map({
 function flyToLocation(currentFeature) {
   map.flyTo({
     center: currentFeature,
-    zoom: 14,
+    zoom: 16.5,
   });
 }
 
@@ -33,11 +33,12 @@ function createPopup(currentFeature) {
   if (popups[0]) popups[0].remove();
   new mapboxgl.Popup({ closeOnClick: true })
     .setLngLat(currentFeature.geometry.coordinates)
-    .setHTML('<h3>' + currentFeature.properties.Title + '</h3>')
+    .setHTML('<h3>' + currentFeature.properties['Location Name'] + '</h3>')
     .addTo(map);
 }
 
 function buildLocationList(locationData) {
+ 
   /* Add a new listing section to the sidebar. */
   const listings = document.getElementById('listings');
   listings.innerHTML = '';
@@ -58,7 +59,7 @@ function buildLocationList(locationData) {
     link.className = 'title';
     link.id = 'link-' + prop.id;
     link.innerHTML =
-      '<p style="line-height: 1.25">' + prop.Title + '</p>';
+      '<p style="line-height: 1.25">' + prop['Location Name'] + '</p>';
 
     /* Add details to the individual listing. */
     const details = listing.appendChild(document.createElement('div'));
@@ -66,7 +67,7 @@ function buildLocationList(locationData) {
     
     for (let i = 1; i < columnHeaders.length; i++) {
       const div = document.createElement('div');
-      let val = prop.Location[columnHeaders[i]];
+      let val = prop[columnHeaders[i]];
 
       val = val ? val : '';
 
@@ -429,6 +430,15 @@ map.addControl(
 );
 
 map.on('load', () => {
+  map.loadImage(
+    './marker.png',
+    (error, image) => {
+    if (error) throw error;
+     
+    // Add the image to the map style.
+    map.addImage('marker-image', image);
+  });
+
   document.getElementById('geocoder').appendChild(geocoder.onAdd(map));
   map.addSource('locationData',  {
     type: 'geojson',
@@ -436,24 +446,41 @@ map.on('load', () => {
     generateId:true
   });
 
+  // map.addLayer({
+  //   id: 'locationData',
+  //   type: 'circle',
+  //   source:'locationData',
+  //   layout:{
+  //     visibility:'visible'
+  //   },
+  //   paint: {
+  //     'circle-radius': 5, // size of circles
+  //     'circle-color': '#3D2E5D', // color of circles
+  //     'circle-stroke-color': 'white',
+  //     'circle-stroke-width': 1,
+  //     'circle-opacity': 1,
+  //   },
+  // });  
+  
   map.addLayer({
     id: 'locationData',
-    type: 'circle',
+    type: 'symbol',
     source:'locationData',
     layout:{
-      visibility:'visible'
+      visibility:'visible',
+      'icon-image': 'marker-image', // reference the image
+      'icon-size':0.025
     },
-    paint: {
-      'circle-radius': 5, // size of circles
-      'circle-color': '#3D2E5D', // color of circles
-      'circle-stroke-color': 'white',
-      'circle-stroke-width': 1,
-      'circle-opacity': 1,
-    },
-  });   
+  });  
 
   // csv2geojson - following the Sheet Mapper tutorial https://www.mapbox.com/impact-tools/sheet-mapper
   console.log('loaded');
+  function updateLocationOnMap(data) {
+    geojsonData = data;
+    map.getSource("locationData").setData(data); 
+    buildLocationList(geojsonData);
+  }
+
   $(document).ready(() => {
     console.log('ready');
     $.ajax({
@@ -461,7 +488,8 @@ map.on('load', () => {
       url: config.CSV,
       dataType: 'text',
       success: function (csvData) {
-        // makeGeoJSON(csvData);
+        makeGeoJSON(csvData, updateLocationOnMap);
+       
       },
       error: function (request, status, error) {
         console.log(request);
@@ -471,18 +499,18 @@ map.on('load', () => {
     });
   });
 
-  fetch('./Saved Places.json')
-  .then(res => res.json())
-  .then(data => {
-    console.log(data);
-    geojsonData = data;
+  // fetch('./Saved Places.json')
+  // .then(res => res.json())
+  // .then(data => {
+  //   console.log(data);
+  //   geojsonData = data;
 
-    map.getSource("locationData").setData(data); 
-    buildLocationList(geojsonData);
-  })
-  .catch(console.error);
+  //   map.getSource("locationData").setData(data); 
+  //   buildLocationList(geojsonData);
+  // })
+  // .catch(console.error);
 
-  function makeGeoJSON(csvData) {
+  function makeGeoJSON(csvData, cb) {
     csv2geojson.csv2geojson(
       csvData,
       {
@@ -495,29 +523,9 @@ map.on('load', () => {
           data.properties.id = i;
         });
 
-        geojsonData = data;
+        // geojsonData = data;
         // Add the the layer to the map
-        map.addSource('locationData',  {
-          type: 'geojson',
-          data: geojsonData,
-          generateId:true
-        });
-
-        map.addLayer({
-          id: 'locationData',
-          type: 'circle',
-          source:'locationData',
-          layout:{
-            visibility:'visible'
-          },
-          paint: {
-            'circle-radius': 5, // size of circles
-            'circle-color': '#3D2E5D', // color of circles
-            'circle-stroke-color': 'white',
-            'circle-stroke-width': 0,
-            'circle-opacity': 0,
-          },
-        });
+        cb(data);
       },
     );    
   }
@@ -532,7 +540,7 @@ map.on('load', () => {
       layers: ["locationData"],
     });
 
-    console.log(e.features[0]);
+    // console.log(e.features[0]);
 
     const clickedPoint = features[0].geometry.coordinates;
 
@@ -541,7 +549,8 @@ map.on('load', () => {
     createPopup(features[0]);
   });
 
-  map.on('mouseenter', "locationData", () => {
+  map.on('mouseover', "locationData", () => {
+    console.log("MouseOver");
     map.getCanvas().style.cursor = 'pointer';
   });
 
@@ -551,6 +560,51 @@ map.on('load', () => {
 
   renderIcons();
   fireFilterListeners();
+
+  // we can add Threebox to mapbox to add built-in mouseover/mouseout and click behaviors
+  window.tb = new Threebox(
+    map,
+    map.getCanvas().getContext('webgl'),
+    {
+      defaultLights: true,
+    }
+  );
+
+  var origin = [-6.287916098168898, 53.34537840389906, 0];
+
+  map.addLayer({
+    id: 'custom_layer',
+    type: 'custom',
+    renderingMode: '3d',
+    onAdd: function (map, mbxContext) {
+
+      // import soldier from an external glb file, scaling up its size 20x
+      // IMPORTANT: .glb is not a standard MIME TYPE, you'll have to add it to your web server config,
+      // otherwise you'll receive a 404 error
+
+                // Attribution: Soldier animated model by T. Choonyung at https://www.mixamo.com
+      // from https://www.mixamo.com/#/?page=1&query=vanguard&type=Character
+      var options = {
+        obj: config.glbFile,
+        type: 'gltf',
+        scale: 8,
+        units: 'meters',
+        rotation: { x: 90, y: 0, z: 0 }, //default rotation
+        anchor: 'center'
+      }
+
+      tb.loadObj(options, function (model) {
+        console.log("loaded");
+        let soldier = model.setCoords(origin);
+        tb.add(soldier);
+      })
+
+    },
+
+    render: function (gl, matrix) {
+      tb.update();
+    }
+  }, 'locationData');
 });
 
 function renderIcons() {

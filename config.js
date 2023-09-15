@@ -5,13 +5,14 @@ const config = {
   style: 'mapbox://styles/mapbox/streets-v12',
   accessToken:
     'pk.eyJ1IjoiaWFyYWtpc3RhaW4iLCJhIjoiY2xpYThhaTgxMDE0OTNsbzlydGs1MjNkYiJ9.8iGzdM2OVnC3NKpVatVGqA',
-  CSV: './Sample_Data.csv',
-  center: [-6.287916098168898, 53.34532340389906],
-  zoom: 12,
+  CSV: './Wayfinding Locations_AM_20230913.csv',
+  glbFile:'./src/factory.glb',
+  center: [-6.287916098168898, 53.34537840389906],
+  zoom: 15,
   title: 'Guiness Map',
   description:
     ' You can filter the list by business type.',
-  sideBarInfo: ['Location_Name', 'Address', 'Phone'],
+  sideBarInfo: ['Location Name', 'Detail', 'Location Type'],
   popupInfo: ['Location_Name'],
   icons:['Site Access', 'Logistics Area', 'Site Facilities', 'Fire Assembly Points'],
   // iconMapping: {
