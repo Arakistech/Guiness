@@ -7,8 +7,10 @@ const config = {
     'pk.eyJ1IjoiaWFyYWtpc3RhaW4iLCJhIjoiY2xpYThhaTgxMDE0OTNsbzlydGs1MjNkYiJ9.8iGzdM2OVnC3NKpVatVGqA',
   CSV: './Wayfinding Locations_AM_20230913.csv',
   glbFile:'./src/factory.glb',
-  center: [-6.287916098168898, 53.34537840389906],
-  zoom: 15,
+  center: [-6.289912423398846, 53.34437252133219],
+  zoom: 17,
+  pitch:57,
+  bearing:60,
   title: 'Guiness Map',
   description:
     ' You can filter the list by business type.',
