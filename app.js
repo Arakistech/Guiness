@@ -470,6 +470,8 @@ map.on('load', () => {
     source:'locationData',
     layout:{
       visibility:'visible',
+      'icon-allow-overlap':true,
+      'icon-rotation-alignment':'viewport',
       'icon-image': 'marker-image', // reference the image
       'icon-size':0.025
     },
@@ -481,6 +483,12 @@ map.on('load', () => {
     geojsonData = data;
     map.getSource("locationData").setData(data); 
     buildLocationList(geojsonData);
+
+    // data.features.map(dt => {
+    //   console.log(dt);
+
+    //   return new mapboxgl.Marker().setLngLat([...dt.geometry.coordinates]).addTo(map);
+    // })
   }
 
   $(document).ready(() => {
@@ -522,6 +530,8 @@ map.on('load', () => {
       },
       (err, data) => {
         data.features.forEach((data, i) => {
+          // data.geometry.coordinates.push(1);
+
           data.properties.id = i;
         });
 
@@ -656,7 +666,7 @@ function fireFilterListeners() {
 }
 
 function filterDataByType(type) {
-  let filteredData = geojsonData.features.filter(ft => ft.properties.Type == type);
+  let filteredData = geojsonData.features.filter(ft => ft.properties['Location Type'] == type);
   return filteredData;
 }
 
