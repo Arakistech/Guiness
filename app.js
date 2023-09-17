@@ -17,6 +17,8 @@ const map = new mapboxgl.Map({
   projection: 'globe',
   center: config.center,
   zoom: config.zoom,
+  pitch:config.pitch,
+  bearing:config.bearing,
   transformRequest: transformRequest,
 });
 
@@ -64,7 +66,7 @@ function buildLocationList(locationData) {
     /* Add details to the individual listing. */
     const details = listing.appendChild(document.createElement('div'));
     details.className = 'content';
-    
+
     for (let i = 1; i < columnHeaders.length; i++) {
       const div = document.createElement('div');
       let val = prop[columnHeaders[i]];
