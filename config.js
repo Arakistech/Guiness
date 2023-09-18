@@ -16,7 +16,7 @@ const config = {
     ' You can filter the list by business type.',
   sideBarInfo: ['Location Name', 'Detail', 'Location Type'],
   popupInfo: ['Location_Name'],
-  icons:['Site Access', 'Logistics Area', 'Facilities', 'Fire Assembly Points'],
+  icons:['Site Access', 'Logistics Area', 'Facilities', 'Fire Assembly Point'],
   // iconMapping: {
   //   'Library':'school',
   //   'Human Services/Non-profit (non-residential)':'Mall', 
