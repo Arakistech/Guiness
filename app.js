@@ -616,7 +616,7 @@ map.on('load', () => {
     render: function (gl, matrix) {
       tb.update();
     }
-  }, 'locationData');
+  }, 'country-label');
 });
 
 function renderIcons() {
