@@ -18,9 +18,9 @@
     opacity: .7;
 }
 
-.mapboxgl-ctrl-geocoder--input {
-    padding: 6px 30px;
-    margin-left: 5px;
+#geocoder .mapboxgl-ctrl-geocoder--input {
+    padding: 6px 30px !important;
+    margin-left: 0px;
 }
 
 .listings .item {
@@ -98,6 +98,9 @@
 
 #geocoder .mapboxgl-ctrl-geocoder {
     width: 100% !important;
+    margin-left: 10px !important;
+    border-radius: 5px;
+    max-width: calc(100% - 20px) !important;
 }
 
 .icons-filter {
